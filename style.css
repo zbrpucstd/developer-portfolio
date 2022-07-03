@@ -11,7 +11,7 @@ h1 {
     color: rgb(30, 122, 122);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 170px;
 }
@@ -52,4 +52,40 @@ section {
 
 .text-align {
     text-align: justify;
+}
+
+.half-width {
+    width: 40%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#experience-align {
+    margin-left: 20px;
+}
+
+.experience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 220px;
+}
+
+#box-one {
+    border-left: 7px solid rgb(0, 204, 255);
+}
+
+#box-two {
+    border-left: 7px solid rgb(69, 69, 156);
+}
+
+#footer-center {
+    text-align: center;
 }
