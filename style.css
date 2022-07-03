@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.text-color {
+    color: rgb(30, 122, 122);
+}
+
+section {
+    display: flex;
+}
+
+.details-part {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.details-part img {
+    width: 80%;
+}
+
+.hireme-button {
+    text-decoration: none;
+    background-image: linear-gradient(aqua, rgb(35, 90, 153));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
