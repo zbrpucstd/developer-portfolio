@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 170px;
 }
 
 .details-part {
@@ -36,4 +37,19 @@ section {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 
+}
+
+.second-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#second-part {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.text-align {
+    text-align: justify;
 }
